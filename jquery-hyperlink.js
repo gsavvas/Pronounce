@@ -23,13 +23,15 @@ jQuery.fn.makeLink = function(pat, mcolor) {
   linkRuns = linkRuns + 1;
   if (linkRuns > 100){ return false;}
   if (node.nodeType == 3) {
-   var match = pat.exec(node.data);
-   //var pos = node.data.toUpperCase().indexOf(pat);
-   var pos = node.data.indexOf(match);
+
    //var pos = pat.lastIndex;
    //if (pos >= 0) {
    if (pat.test(node.data)) {
-    console.log("Found match:" + match);
+    var match = pat.exec(node.data)[0];
+    //var pos = node.data.toUpperCase().indexOf(pat);
+    var pos = node.data.indexOf(match);
+   
+    console.log("Found match:" + match + ", length of:" + match.length);
     //var spannode = document.createElement('span');
 	var spannode = document.createElement('a');
     //spannode.className = 'highlight';

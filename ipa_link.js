@@ -56,9 +56,11 @@ l̩	middle, metal
 */
 
 var chars = "pbtdkgtʃdʒfvθðszʃʒhmnŋlrjwʔɪeæɒʌʊiːeɪaɪɔɪuːəʊaʊɪəeəɑːɔːʊəɜːəiun̩l̩ˈ";
-var ipa_special = "ʃʒθðsʃʒŋʔɪeæɒʌʊːɪɪɔɪːəʊaʊɪəeəɔːʊəɜəu̩lˈ";
-var patt = new RegExp("a","i"); //
-//var patt = new RegExp("[" + ipa_special + "]+[" + chars + "]*", "i");
+var ipa_special = "ʃʒθðʃʒŋʔɪæɒʌʊːɪɪɔɪːəʊʊɪəəɔːʊəɜə̩ˈ";
+//var patt = new RegExp("a","i"); //
+var patt = new RegExp("[" + ipa_special + "]{1}[" + chars + "]*", "i");
+//var patt = new RegExp("[" + ipa_special + "]+", "i");
+
 window.addEventListener("message", function(event) {
   // We only accept messages from ourselves
   if (event.source != window)
