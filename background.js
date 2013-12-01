@@ -29,9 +29,7 @@ function init(){
 
 
 function file_from_letter(letter){
-	//var base_url = "chrome-extension://" + chrome.i18n.getMessage("@@extension_id") +"/"
-	//var sound =  base_url + "/sounds/beep.mp3";
-	//var sound = base_url + "sounds/boop.wav";
+
 	var sound = chrome.extension.getURL("sounds/boop.wav")
 	return sound;
 }
