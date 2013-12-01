@@ -57,7 +57,8 @@ l̩	middle, metal
 
 var chars = "pbtdkgtʃdʒfvθðszʃʒhmnŋlrjwʔɪeæɒʌʊiːeɪaɪɔɪuːəʊaʊɪəeəɑːɔːʊəɜːəiun̩l̩ˈ";
 var ipa_special = "ʃʒθðsʃʒŋʔɪeæɒʌʊːɪɪɔɪːəʊaʊɪəeəɔːʊəɜəu̩lˈ";
-var regex = "[" + ipa_special + "]+[" + chars + "]*";
+var patt = new RegExp("a","i"); //
+//var patt = new RegExp("[" + ipa_special + "]+[" + chars + "]*", "i");
 window.addEventListener("message", function(event) {
   // We only accept messages from ourselves
   if (event.source != window)
@@ -74,7 +75,7 @@ window.addEventListener("message", function(event) {
   }
 }, false);
 
-$('body').makeLink('a','http://example.com');
+$('body').makeLink(patt,'http://example.com');
 
 /*
 //pass test string to background page to play
