@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pronounce",
+  "description": "This extension provides an easy way to play the sounds of International Phonetic Alphabetic in the browser.",
+  "version": "1.0",
+
+  "content_scripts": [
+  { "matches": [ // "http://*/*","https://*/*", //comment out for local testing only
+	"file:///*/*"],
+  "js": ["jquery-1.7.2.min.js","jquery-hyperlink.js", "ipa_link.js"],
+  "all_frames": true
+  }
+  ],
+  "background": { "scripts": ["background.js"]}
+}
