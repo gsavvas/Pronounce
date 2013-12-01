@@ -74,7 +74,7 @@ window.addEventListener("message", function(event) {
   }
 }, false);
 
-$('body').makeLink(regex,'http://example.com');
+$('body').makeLink('a','http://example.com');
 
 /*
 //pass test string to background page to play
