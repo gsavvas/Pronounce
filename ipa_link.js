@@ -1,5 +1,6 @@
 ﻿//ipa letters:
 /*
+Reference: http://www.phon.ucl.ac.uk/home/wells/phoneticsymbolsforenglish.htm
 Consonants
 p	pen, copy, happen
 b	back, baby, job
@@ -25,8 +26,7 @@ l	light, valley, feel
 r	right, wrong, sorry, arrange
 j	yet, use, beauty, few
 w	wet, one, when, queen
-ʔ	(glottal stop)
-department, football
+ʔ	(glottal stop) department, football
 Vowels
 ɪ	kit, bid, hymn, minute
 e	dress, bed, head, many
