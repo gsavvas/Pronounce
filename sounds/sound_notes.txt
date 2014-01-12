@@ -1,0 +1,55 @@
+﻿/*
+Reference: http://www.phon.ucl.ac.uk/home/wells/phoneticsymbolsforenglish.htm
+Consonants
+p	pen, copy, happen - y
+b	back, baby, job - y
+t	tea, tight, button - y
+d	day, ladder, odd - y
+k	key, clock, school - y
+g	get, giggle, ghost - y
+tʃ	church, match, nature - y
+dʒ	judge, age, soldier - y 
+f	fat, coffee, rough, photo - y
+v	view, heavy, move - y
+θ	thing, author, path - y
+ð	this, other, smooth - y
+s	soon, cease, sister - y 
+z	zero, music, roses, buzz - y
+ʃ	ship, sure, national - y
+ʒ	pleasure, vision- y
+h	hot, whole, ahead - y
+m	more, hammer, sum - y
+n	nice, know, funny, sun - y
+ŋ	ring, anger, thanks, sung - y
+l	light, valley, feel - y
+r	right, wrong, sorry, arrange - y 
+j	yet, use, beauty, few - y
+w	wet, one, when, queen - y
+ʔ	(glottal stop) department, football - y
+Vowels
+ɪ	kit, bid, hymn, minute - y
+e	dress, bed, head, many - y
+æ	trap, bad - y
+ɒ	lot, odd, wash - y
+ʌ	strut, mud, love, blood - y
+ʊ	foot, good, put - y
+iː	fleece, sea, machine - y
+eɪ	face, day, break - y
+aɪ	price, high, try - y
+ɔɪ	choice, boy - y
+uː	goose, two, blue, group - y
+əʊ	goat, show, no - y
+aʊ	mouth, now - y
+ɪə	near, here, weary - y
+eə	square. fair, various - y
+ɑː	start, father - y
+ɔː	thought, law, north, war - y
+ʊə	poor, jury, cure - y
+ɜː	nurse, stir, learn, refer - y
+ə	about, common, standard - y
+i	happy, radiate. glorious - y
+u	thank you, influence, situation - y
+n̩	suddenly, cotton - y
+l̩	middle, metal - y
+ˈ	(stress mark) - ?
+*/
