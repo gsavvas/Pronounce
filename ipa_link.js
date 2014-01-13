@@ -55,10 +55,12 @@ l̩	middle, metal
 ˈ	(stress mark)
 */
 
-var chars = "pbtdkgtʃdʒfvθðszʃʒhmnŋlrjwʔɪeæɒʌʊiːeɪaɪɔɪuːəʊaʊɪəeəɑːɔːʊəɜːəiun̩l̩ˈ";
-var ipa_special = "ʃʒθðʃʒŋʔɪæɒʌʊːɪɪɔɪːəʊʊɪəəɔːʊəɜə̩ˈ";
+var chars = "pbtdkgtʃdʒfvθðszʃʒhmnŋlrjwʔɪeæɒʌʊiːeɪaɪɔɪuːəʊaʊɪəeəɑːɔːʊəɜːəiun̩l̩ɛˈ";
+var ipa_special = "ʃʒθðʃʒŋʔɪæɒʌʊːɪɪɔɪːəʊʊɪəəɔːʊəɜə̩ˈɛ";
+var non_special = "pbtdkgtdfvszhmnlrjweeauːəʊaʊɪəeəɑːɔːʊəɜːəiun̩l̩ˈ";
+
 //var patt = new RegExp("a","i"); //
-var patt = new RegExp("[" + ipa_special + "]{1}[" + chars + "]*", "i");
+var patt = new RegExp("[" + chars+"]*?" + "[" + ipa_special + "]{1}[" + chars + "]*", "i");
 //var patt = new RegExp("[" + ipa_special + "]+", "i");
 
 window.addEventListener("message", function(event) {
